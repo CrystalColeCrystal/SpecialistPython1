@@ -29,3 +29,6 @@
 # 20 199.80 Rub.
 
 # TODO: your code here
+price = float(input("Введите цену: "))
+for i in range(1,21):
+    print(i, format(i*price, ".2f"), "Rub")
