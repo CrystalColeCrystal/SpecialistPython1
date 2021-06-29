@@ -18,3 +18,12 @@
 
 
 # TODO: your code here
+
+a = int(input("Введите сторону квадрата: "))
+for i in range(a):
+    for j in range(a):
+        if i==j or i == a-1-j:
+            print('#',end='')
+        else:
+            print(' ',end='')
+    print()
