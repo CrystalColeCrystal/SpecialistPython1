@@ -6,3 +6,15 @@
 
 # TODO: your code here
 
+
+text = input("Введите строку: ")
+text = text.replace(" ", "")
+text = text.replace(".", "")
+text = text.replace(",", "")
+text = text.replace("!", "")
+text = text.replace("?", "")
+text = text.lower()
+if text == text[::-1]:
+    print("Строка - перевертыш")
+else:
+    print("Строка - не перевертыш")
