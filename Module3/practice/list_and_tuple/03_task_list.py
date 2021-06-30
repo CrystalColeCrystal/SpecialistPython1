@@ -2,3 +2,9 @@
 # Вывести на экран сумму всех элементов.
 
 # TODO: your code here
+
+lst = input("Введите n целых чисел через пробел: ").split(" ")
+summa=0
+for el in lst:
+    summa+=int(el)
+print(summa)
