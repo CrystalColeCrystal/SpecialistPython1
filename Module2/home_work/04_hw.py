@@ -14,3 +14,9 @@
 #    #
 #    #
 ######
+a = int(input("Введите сторону квадрата: "))
+for i in range (1,a+1):
+    if i==1 or i==a:
+        print("#"*a)
+    else:
+        print("#", " "*(a-2), "#", sep="")
